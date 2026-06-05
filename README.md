@@ -1,24 +1,19 @@
-# Sales & Revenue Analytics Dashboard
+# 📊 Sales & Revenue Analytics Dashboard
 
-This is a Sales Analytics Dashboard built using Python and Streamlit. It shows sales data with different charts and filters.
+An interactive dashboard built with Streamlit to analyze sales performance, revenue trends, and key business metrics.
 
-## Live Demo
-**Dashboard Link:** https://sales-and-revenue-analytics-dashboard-app-p6pjd.streamlit.app
+### ✨ Key Features
+- **Interactive Filters**: Filter data by Date, Region, Product Category, and Sales Channel
+- **KPI Cards**: Real-time metrics for Total Revenue, Total Orders, Avg Order Value, and Growth %
+- **Revenue Trends**: Monthly/quarterly revenue trend line charts with growth analysis
+- **Top Products**: Identifies best-selling products and categories by revenue
+- **Regional Analysis**: Sales breakdown by region with comparative insights
+- **Data Export**: Download filtered data as CSV for further analysis
 
-## Features
-- Shows Total Sales, Profit, Quantity as KPI cards
-- Filters for Date, Region, City, Category, Payment Mode
-- Charts: Donut chart, Treemap, Line chart, Bar chart, Scatter plot
-- Dark theme UI
-- All charts update when you change filters
+### 🛠️ Tech Stack
+- **Frontend**: Streamlit
+- **Backend**: Python 3.10+
+- **Data Processing**: Pandas, NumPy
+- **Visualization**: Plotly, Matplotlib
 
-## Tech Used
-- Python
-- Pandas for data cleaning
-- Plotly for charts
-- Streamlit for dashboard
-- Deployed on Streamlit Cloud
-
-## How to Run This Project
-
-1. Clone the repo:
+### 📂 Project Structure

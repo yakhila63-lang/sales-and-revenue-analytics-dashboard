@@ -1,33 +1,45 @@
 # 📊 Sales & Revenue Analytics Dashboard
 
-> Power BI style interactive dashboard built entirely with Python
+An interactive end-to-end Sales Analytics Dashboard built with Python and Streamlit. This project replicates Power BI style visuals and KPIs to analyze sales performance, profit trends, and customer behavior across regions and time periods.
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.38-red)
-![Plotly](https://img.shields.io/badge/Plotly-5.24-green)
-
-### 🚀 Live Demo
-**[View Dashboard](https://your-app-name.streamlit.app)** ← Deploy chesaka ee link marchu
-
-### 📸 Preview
-<!-- Ikada nee dashboard screenshot pettu -->
-![Dashboard Preview](dashboard.png)
+## 🚀 Live Demo
+**[Click here to view the Dashboard](https://sales-and-revenue-analytics-dashboard-app-p6pjd.streamlit.app)**
 
 ---
 
-### ✨ Features
-- **KPI Cards**: Total Revenue, Profit, Quantity Sold, Avg Order Value
-- **10+ Visualizations**: Bar, Line, Area, Pie, Donut, Treemap, Scatter, Geo Map
-- **Interactive Filters**: Date Range, Region, Category, Product, Sales Channel
-- **Dark Theme UI**: Power BI inspired design
-- **Data Upload**: Supports Excel/CSV files with smart column mapping
-- **Responsive Layout**: Works on desktop & tablet
+## 📸 Dashboard Preview
 
-### 🛠️ Tech Stack
-- **Language**: Python 3.9+
-- **Framework**: Streamlit
-- **Data Processing**: Pandas, NumPy
-- **Visualization**: Plotly Express, Plotly Graph Objects
-- **File Handling**: OpenPyXL
+![Dashboard Screenshot](screenshots/dashboard.png)
+> Tip: Create a `screenshots` folder in your repo and upload your dashboard image as `dashboard.png` to show it here.
 
-### 📂 Project Structure
+---
+
+## ✨ Key Features
+
+- **KPI Cards**: Total Sales, Total Profit, Total Quantity, Average Order Value
+- **Interactive Filters**: Date Range, Region, City, Customer Segment, Product Category, Payment Mode
+- **Advanced Visuals**:
+    - Donut Chart - Sales distribution by Payment Mode
+    - Treemap - Sales breakdown by Category & Sub-Category  
+    - Line Chart - Profit Trend by Year & Region
+    - Stacked Bar Chart - Quarterly Sales by Region
+    - Horizontal Bar Chart - Profit by City & Customer Segment
+    - Scatter Plot - Sales vs Profit by City
+- **Responsive Design**: Dark theme with Power BI inspired UI/UX
+- **Real-time Updates**: All charts update instantly when filters change
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools Used |
+| --- | --- |
+| **Language** | Python |
+| **Data Processing** | Pandas, NumPy |
+| **Visualization** | Plotly Express, Plotly Graph Objects |
+| **Dashboard Framework** | Streamlit |
+| **Deployment** | Streamlit Community Cloud |
+
+---
+
+## 📂 Project Structure
